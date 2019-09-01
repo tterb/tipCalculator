@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         // Create gradient background
         let layer = CAGradientLayer()
         layer.frame = view.bounds
@@ -36,6 +35,8 @@ class ViewController: UIViewController {
         // Modify selected percentControl style
         let selectedSegment = [NSAttributedString.Key.foregroundColor: UIColor(hex: 0x45A6BA), NSAttributedString.Key.font : UIFont.systemFont(ofSize: 20, weight: .semibold)]
         UISegmentedControl.appearance().setTitleTextAttributes(selectedSegment, for: .selected)
+        // Set focus to input field
+        inputField.becomeFirstResponder()
     }
 
     @IBAction func percentChange(_ sender: Any) {
@@ -61,9 +62,3 @@ extension UIColor {
         self.init(red: r, green: g, blue: b, alpha: alpha)
     }
 }
-
-//extension UIColor {
-//    class var accent:UIColor {
-//        return UIColor(red: 117.0/255.0, green: 214.0/255.0, blue: 234.0/255.0)
-//    }
-//}
