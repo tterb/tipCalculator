@@ -21,9 +21,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
-
-- [ ] Party size option to divide tip between multiple people and give amount per person
+- [x] I created a custom icon for the app  
 
 ## Video Walkthrough
 
@@ -31,7 +29,7 @@ Here's a walkthrough of implemented user stories:
 
 ![preview](./preview.gif)  
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).  
+GIF created with [GIPHY](https://giphy.com/).  
 
 ## License
 
